@@ -1,0 +1,20 @@
+{
+  "SETTINGS": {
+    "ATTACH_SAVING_PATH": "<path_to_attach_saving>"
+  },
+  "TELEGRAM": {
+    "TELEGRAM_TOKEN": "<your_telegram_bot_token>"
+  },
+  "SPREADSHEET": {
+    "SERVICE_ACCOUNT_FILE": "<path_to_your_service_account_json_file>",
+    "SPREADSHEET_ID": "<your_spreadsheet_id>",
+    "WORKSHEET_INCOME_NAME": "<name_of_your_income_worksheet>",
+    "WORKSHEET_EXPENSES_NAME": "<name_of_your_expenses_worksheet>",
+    "SKIP_STATEMENT_FIRSTLINE": true,
+    "INCOME_START_ROW": 2,
+    "EXPENSES_START_ROW": 2,
+    "SPLIT_INCOME_EXPENSES": true,
+    "RETRY_DELAY": 60,
+    "MAX_RETRIES": 5
+  }
+}
